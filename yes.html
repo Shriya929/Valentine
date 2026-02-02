@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Forever ❤️</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body onload="startHearts(); startTyping();">
+
+  <div class="box final-box">
+    <div class="pig bounce" onclick="togglePigNote(event)">
+      🐷
+    </div>
+
+    
+
+    <!-- Typing message -->
+    <h1 class="big-text typing" id="typingText"></h1>
+
+    <p class="cute-text">Forever & Always </p>
+
+    <!-- I LOVE YOU BUTTON -->
+<button class="love-btn" onclick="playLove();">
+  I Love You ❤️
+</button>
+
+<p id="loveMessage" class="love-message"></p>
+
+<!-- Pig popup note -->
+    <div id="pigPopup" class="pig-popup">Surprise! To my cute, not-so-little boyfriend:<br>
+        You're one of the best things that has happened to me in the past few years.
+         And I hope I'll always have you by my side.
+          Don't know what magic you have, but you make me fall in love a little more every time I think about you.
+          And all i know is that I'm happy beside you, feeling safe.
+          I Love You more than you can imagine and I hope I'll always be the one to love you.
+         Even though we have some huge differences, I promise to be by your side for long as I can.
+          And I will always Love You.<br>
+          Your SoFe Loves You to the moon and back, Bubba💕</div>
+  </div>
+
+<!-- Audio element (hidden) -->
+<audio id="loveAudio" src="snow.mp3.mpeg"></audio>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
